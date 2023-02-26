@@ -9,7 +9,7 @@ const start = () => {
 }
 
 const seleccionado = (ob) => {
-    console.log(ob.selectedIndex);
+    //console.log(ob.selectedIndex);
     if (ob.selectedIndex == 1)
         document.getElementById("titulo").innerText = "Cartesianas a polares";
     else if (ob.selectedIndex == 2)
@@ -19,7 +19,7 @@ const seleccionado = (ob) => {
 }
 const calcular = () => {
      const seleccion = document.getElementById("cambio").selectedIndex;
-    console.log(seleccion);
+    //console.log(seleccion);
     if (seleccion == 1) {
         const x = parseInt(document.getElementById("x").value)||0;
          const y = parseInt(document.getElementById("y").value) || 0;
